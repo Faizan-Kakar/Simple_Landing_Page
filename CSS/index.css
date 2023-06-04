@@ -1,0 +1,312 @@
+/* Global CSS */
+body {
+    background-color: #fff;
+    color: #777;
+    font : normal 15px "Helvetica Neue" , Arial, Helvetica , Geneva , sans-serif;
+}
+
+p{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    font-weight: 300;
+    color: #444;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 30px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-size: 24px;
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+    margin-top: -7px;
+}
+h5{
+    font-size: 15px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+}
+a:hover{
+    color: #02b8dd;
+}
+strong{
+    font-weight: bold;
+}
+
+small{
+    font-size: 13px;
+    color: #777;
+}
+
+.wrapper{
+    margin: 0 auto;
+    padding: 0px 10px;
+    width: 940px;
+}
+
+
+/* Section:1 starts */
+
+header{
+    height: 100px;
+    position: relative;
+    max-width: 940px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+header h1{
+    position: absolute;
+    display: inline;
+    top: 4%;
+    margin-left: 143px;
+}
+header span{
+    color: blue;
+}
+
+header nav{
+    display: inline;
+    position: absolute;
+    right: 143px;
+    top: 36%;
+}
+
+header ul{
+    display: inline;
+}
+
+
+header li{
+    display: inline;
+    margin: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+/* Section:1 Ends */
+
+
+/* Section:2 Starts */
+#hero{
+    background: #e8eced url("../images/hero.jpg") no-repeat center ;
+    height: 580px;
+    padding-top: 1px;
+    max-width: 940px;
+    margin: auto;
+}
+
+#hero h2{
+    margin: 143px 0 53px 0;
+}
+
+#hero a{
+    text-align: center;
+    display: block;
+    background: #444;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 19px;
+}
+
+#hero a:hover{
+    background-color:  #02b8dd ;
+}
+/* Section:2 Ends */
+
+/* Section:3 Starts */
+
+#features{
+    height: 532px;
+    padding-top: 1px;
+
+}
+#features ul{
+    text-align: center;
+    align-items: center;
+    margin: 80px 0;
+}
+
+#features ul li{
+    width: 250px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+    padding-top: 140px;
+    
+}
+
+#features ul li.feature-1 {
+    background: url('../images/features-icon-1.png') no-repeat top center;
+}
+#features ul li.feature-2 {
+    background: url('../images/features-icon-2.png') no-repeat top center;
+}
+#features ul li.feature-3 {
+    background: url('../images/features-icon-3.png') no-repeat top center;
+}
+
+/* Section:3 Ends */
+
+/* Section:4 Starts */
+
+#primary-content{
+    padding-top: 1px;
+    background-color: #f8fafa;
+}
+
+hr{
+    color: blue;
+    width: 254px;
+}
+#primary-content p{
+    width: 780px;
+    margin: 20px auto 50px auto;
+    text-align: center;
+}
+/* Section:4 Ends */
+
+/* Section:5 Starts */
+#secondary-content{
+    padding-top: 60px 0;
+    height: 500px;
+}
+#secondary-content article{
+float: left;
+width: 460px;
+height: 270px;
+text-align: center;
+background-color: #f5f5f5;
+margin: 5px;
+margin-top: 122px;
+}
+
+#secondary-content article .overlay{
+
+    width: 190px;
+    height: 230px;
+    padding: 20px;
+    background-color: rgb(255, 255, 266, .95);
+
+}
+#secondary-content article .overlay p{
+
+    font-style: italic;
+
+}
+
+#secondary-content article .overlay hr{
+    width: 103px;
+}
+
+#secondary-content article .overlay a{
+    color: #02b8dd;
+    border: 1px solid #02b8dd;;
+    padding: 10px;
+    width: 60px;
+    border-radius: 5px;
+}
+#secondary-content article .overlay a:hover{
+    background-color: #02b8dd;
+    color: #fff;
+}
+
+
+/* Section:4 Ends */
+
+/* Section:5 Starts */
+
+#ctd{
+    padding-top: 1px;
+    height: 360px;
+}
+#ctd hr{
+    width: 218px;
+    margin-bottom: 20px;
+}
+#ctd p{
+    width: 779px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#ctd  a{
+    width: 216px;
+    height: 55px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    color: #02b8dd;
+    line-height: 56px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid #02b8dd ;
+}
+
+#ctd a:hover{
+    background-color: #02b8dd;
+    color: #fff;
+}
+
+/* Section:5 Ends */
+
+/* Section: 6 Starts */
+#footer{
+    background-color: #f8fafa;
+    height: 300px;
+}
+.footer-info{
+    width: 380px;
+    float: left;
+    margin-left: 20px;
+}
+.footer-info a{
+    color: #02b8dd;
+    text-decoration: underline;
+}
+
+.footer-links{
+    width: 520px;
+    float: right;
+}
+.footer-links ul{
+    float: left;
+    margin-right: 5px;
+}
+.footer-links ul li{
+    list-style: none;
+    padding: 8px;
+}
+
+
+
+
